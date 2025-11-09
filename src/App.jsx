@@ -6,7 +6,7 @@ function App() {
   return (
     <div style={{ display: "flex", justifyContent:"center", padding: "50px" }}>
       <ProfileCard                
-        avatarUrl="/public/1762677472789.png"
+        avatarUrl="https://azkaarrodhi.vercel.app/1762677472789.png"
         name="AZKA ARRODHI"
         title="Beginner Developer"
         handle="azkaarrodhi"
