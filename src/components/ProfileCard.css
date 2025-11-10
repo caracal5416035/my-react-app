@@ -61,8 +61,8 @@
 }
 
 .pc-card {
-  width: 280px;
-  height: 400px;
+  width: 290px;
+  height: 415px;
   display: grid;
   border-radius: var(--card-radius);
   position: relative;
