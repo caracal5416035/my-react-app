@@ -329,6 +329,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  transform: translateY(-6px);
 }
 
 .pc-details p {
@@ -337,7 +338,7 @@
   font-family: "Poppins", sans-serif;
   white-space: nowrap;
   font-size: 15px;
-  margin: -5px auto auto;
+  margin: -10px auto auto;
   width: min-content;
   background-image: linear-gradient(to bottom, #fff, #4a4ac0);
   background-size: 1em 1.5em;
