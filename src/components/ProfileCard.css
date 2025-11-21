@@ -25,7 +25,7 @@
   --sunpillar-clr-4: var(--sunpillar-4);
   --sunpillar-clr-5: var(--sunpillar-5);
   --sunpillar-clr-6: var(--sunpillar-6);
-  --card-radius: 30px;
+  --card-radius: 20px;
 }
 
 .pc-card-wrapper {
@@ -105,7 +105,7 @@
 .pc-card * {
   display: grid;
   grid-area: 1/-1;
-  border-radius: 15px;
+  border-radius: var(--card-radius);
   transform: translate3d(0, 0, 0.1px);
   pointer-events: none;
 }
