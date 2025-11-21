@@ -366,34 +366,33 @@
     background-position: 0 var(--background-y), 90% 90%, center;
   }
 }
-/* BOOST 3D UNTUK LAYAR KECIL (HP) */
 @media (max-width: 480px) {
 
-  /* Perbesar rotasi */
+  /* Sedikit kecilkan rotasi */
   :root {
-    --rotate-x: calc(var(--rotate-x) * 1.6);
-    --rotate-y: calc(var(--rotate-y) * 1.6);
+    --rotate-x: calc(var(--rotate-x) * 0.9);
+    --rotate-y: calc(var(--rotate-y) * 0.9);
   }
 
-  /* Efek parallax lebih kuat */
+  /* Parallax sedikit lebih kecil */
   .pc-content {
     transform: translate3d(
-      calc(var(--pointer-from-left) * -12px + 6px),
-      calc(var(--pointer-from-top) * -12px + 6px),
-      0.3px
+      calc(var(--pointer-from-left) * -8px + 4px),
+      calc(var(--pointer-from-top) * -8px + 4px),
+      0.22px
     ) !important;
   }
 
-  /* Shadow lebih dalam */
+  /* Shadow sedikit diperkecil */
   .pc-card {
-    box-shadow: rgba(0, 0, 0, 0.9)
-      calc((var(--pointer-from-left) * 16px) - 6px)
-      calc((var(--pointer-from-top) * 28px) - 10px)
-      26px -6px;
+    box-shadow: rgba(0, 0, 0, 0.7)
+      calc((var(--pointer-from-left) * 12px) - 4px)
+      calc((var(--pointer-from-top) * 20px) - 7px)
+      20px -4px;
   }
 
-  /* Perspektif kecil → efek 3D lebih tajam */
+  /* Perspektif agak diperbesar sedikit */
   .pc-card-wrapper {
-    perspective: 350px;
+    perspective: 450px;
   }
 }
